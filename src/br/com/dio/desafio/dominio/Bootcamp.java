@@ -12,7 +12,7 @@ public class Bootcamp {
     private final LocalDate dataFinal =  dataInicial.plusDays(45);
 
     private Set<Dev> alunos = new LinkedHashSet<>();
-    private Set<Conteudo> cursos = new LinkedHashSet<>();
+    private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
     public String getNome() {
         return nome;
@@ -46,12 +46,12 @@ public class Bootcamp {
         this.alunos = alunos;
     }
 
-    public Set<Conteudo> getCursos() {
-        return cursos;
+    public Set<Conteudo> getConteudos() {
+        return conteudos;
     }
 
-    public void setCursos(Set<Conteudo> cursos) {
-        this.cursos = cursos;
+    public void setConteudos(Set<Conteudo> cursos) {
+        this.conteudos = cursos;
     }
 
     @Override
@@ -59,11 +59,11 @@ public class Bootcamp {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Bootcamp bootcamp = (Bootcamp) o;
-        return Objects.equals(nome, bootcamp.nome) && Objects.equals(descricao, bootcamp.descricao) && Objects.equals(dataInicial, bootcamp.dataInicial) && Objects.equals(dataFinal, bootcamp.dataFinal) && Objects.equals(alunos, bootcamp.alunos) && Objects.equals(cursos, bootcamp.cursos);
+        return Objects.equals(nome, bootcamp.nome) && Objects.equals(descricao, bootcamp.descricao) && Objects.equals(dataInicial, bootcamp.dataInicial) && Objects.equals(dataFinal, bootcamp.dataFinal) && Objects.equals(alunos, bootcamp.alunos) && Objects.equals(conteudos, bootcamp.conteudos);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nome, descricao, dataInicial, dataFinal, alunos, cursos);
+        return Objects.hash(nome, descricao, dataInicial, dataFinal, alunos, conteudos);
     }
 }
