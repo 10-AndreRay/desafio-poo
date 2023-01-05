@@ -39,11 +39,21 @@ public class App {
 
         System.out.println(dev1.getConteudosInscritos());
         dev1.progredir();
+        System.out.println("XP: " + dev1.calcularXp());
 
         System.out.println(dev2.getConteudosInscritos());
         dev2.progredir();
+        System.out.println("XP: " + dev2.calcularXp());
 
         System.out.println(dev1.getConteudosConcluidos());
         System.out.println(dev2.getConteudosConcluidos());
+
+        System.out.println(dev1.getConteudosInscritos());
+        dev1.progredir();
+        System.out.println("XP: " + dev1.calcularXp());
+
+        System.out.println(dev2.getConteudosInscritos());
+        dev2.progredir();
+        System.out.println("XP: " + dev2.calcularXp());
     }
 }
