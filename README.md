@@ -18,5 +18,4 @@
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [Spring](https://spring.io/)
-- [Swagger](https://swagger.io/)
+- [Java]([https://spring.io/])
