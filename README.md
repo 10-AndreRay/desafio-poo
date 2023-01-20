@@ -18,4 +18,4 @@
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [Java]([https://java.com/])
+- [Java](https://java.com/)
